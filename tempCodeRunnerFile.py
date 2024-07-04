@@ -66,7 +66,7 @@
 # print(input('choose the number'))
 Girl1 = {
    'name':'smriti',
-   'number':'2'
+   'number':'5'
 }
 Girl2 = {
    'name':'pallavi',
@@ -76,8 +76,20 @@ Girl2 = {
 
 Girl3 = {
    'name':'gracey',
-   'number':'4'
+   'number':'5'
 }
 
+for i in range (5):
+   user_choose=input('choose the number ')
+   print(user_choose)
+   if user_choose==Girl1['number']:
+      print(Girl1['name'],'love u')
+   elif user_choose==Girl2:
+      print(Girl2['name'],'love u')
+   elif user_choose==Girl3:
+      print(Girl3['name'],'love u')
+      
+else:
+   print('noone love u pajii')
 
 
